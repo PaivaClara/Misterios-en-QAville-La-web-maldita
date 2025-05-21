@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Misterios en QAville</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenidos a QAville</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="services.html">Servicios</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+        <li><a href="#">Blog</a></li> <!-- Link roto -->
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Nuestra Historia</h2>
+      <p>Desde 1980 ofrecemos soluciones misteriosas. Confié en nosotros, o no.</p>
+      <img src="logo.png" alt=""> <!-- Falta alt significativo -->
+    </section>
+
+    <button onclick="alert('Gracias por su visita')">Click Aquí</button>
+    <button>Sin función</button> <!-- Sin evento asociado -->
+  </main>
+
+  <footer>
+    <p>© 2025 QAville. Todos los derexos reservados.</p> <!-- Error ortográfico -->
+  </footer>
+</body>
+</html>
